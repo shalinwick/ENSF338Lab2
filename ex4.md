@@ -1,27 +1,15 @@
 1.
-
-Begin at the entry point where the sign is located.
-Since the room number we are looking for (EY128) falls within the range on the sign pointing to the left (EY 100-130), we should turn left.
-Move sequentially through the corridor, checking each room number.
-Continue this process until you arrive at room EY128.
+When you see the sign at the entrance, check if it shows the numbers of the rooms nearby. If it includes the number you're looking for (EY128), which it does since it shows EY 100-130, turn left. Then, just keep going down the hallway, looking at each room number until you find EY128.
 
 2.
-
-A "step" in this context is the action of moving from your current position to the next room along the corridor.
-Since room EY128 is on the left side according to the sign and the floor plan, it would take 14 steps to arrive at EY128, starting from the entrance and passing by each room on the left side.
-Best-case, worst-case, or neither:
+A "step" here means moving from one room to the next along the hallway. Since EY128 is on the left side, you'd take 14 steps to get there from the entrance, passing each left-side room on the way.
 
 3.
-
-This is neither a best-case nor a worst-case scenario. In the best-case scenario, EY128 would be the first room you encounter, and in the worst-case scenario, it would be the last room on the corridor, requiring you to pass by all other rooms first.
-Best-case and worst-case scenarios:
+It's not the best or worst case. In the best case, you'd find EY128 right away. In the worst case, it would be the last room, and you'd have to check every other room first.
 
 4.
-
-Best-case scenario: If EY128 were the first room on the left after turning, meaning you would find it immediately without needing to check other rooms.
-Worst-case scenario: If the room EY128 were at the end of the corridor after having to pass and check all other rooms on the left side.
-Improving the algorithm:
+Best-case: Finding EY128 immediately after turning left.
+Worst-case: EY128 being at the end of the hallway after checking every other room on the left.
 
 5.
-
-With the floor layout memorized, the algorithm can be improved to a direct route approach. Instead of checking each room sequentially, you would directly walk to EY128 because you know its exact location relative to the entrance.
+If you remember where EY128 is in relation to the entrance, you don't have to check every room. You can just walk straight there.

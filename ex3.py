@@ -1,8 +1,13 @@
 # Part 1
-# A profiler measures the execution time and resource usage of a program's parts. It identifies performance bottlenecks by analyzing function call times and frequencies. This helps developers optimize code efficiency.
+# A profiler keeps track of how long a program takes to run and how much resources it uses. It figures out which parts of the program are slowing it down by looking at how long each function takes to run and how often they are called. This helps programmers make the code run faster.
 
 # Part 2
-# Profiling provides detailed insights into a program's runtime behavior for optimization. Benchmarking evaluates a program's performance by comparing it against standards or other programs. While profiling focuses on identifying and solving performance issues, benchmarking measures and compares overall performance outcomes.
+# Profiling looks closely at how a program runs to make it faster. Benchmarking, on the other hand, tests how well a program performs compared to others or certain standards. Profiling helps find and fix problems with speed, while benchmarking sees how well the program performs overall.
+
+
+
+
+
 
 
 # Part 3

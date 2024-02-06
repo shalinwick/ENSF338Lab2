@@ -58,12 +58,5 @@ c. Data has unsorted/random order
 
 Linear search operates sequentially, and thus does not rely on the fact that data is sorted using a specific pattern such as ascending or descending order. If data is unsorted or random, linear search still does not have trouble checking each element one by one until the target element is found. The other two search methods require the data to be sorted, which would make linear search a much more efficient and straightforward method in this scenario.
 
--- 2.6 --
-
-There are some ways to improve binary and interpolation search algorithms to address the limitations discussed earlier.
-
-a. Handling unsorted data
-
-Developing techniques to handle unsorted data that use these two search algorithms can prove to be 
 
 
