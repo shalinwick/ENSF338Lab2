@@ -60,6 +60,10 @@ Linear search operates sequentially, and thus does not rely on the fact that dat
 
 -- 2.6 --
 
+There are some ways to improve binary and interpolation search algorithms to address the limitations discussed earlier.
 
+a. Handling unsorted data
+
+Developing techniques to handle unsorted data that use these two search algorithms can prove to be 
 
 
